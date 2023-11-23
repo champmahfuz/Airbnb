@@ -8,6 +8,7 @@ import ToasterProvider from "./providers/ToasterProvider";
 import LoginModal from "./components/modals/LoginModal";
 import getCurrentUser from "./actions/getCurrentUser";
 import RentModal from "./components/modals/RentModal";
+import SearchModal from "./components/modals/SearchModal";
 export const metadata = {
   title: "AirBnb",
   description: "Airlines Bokking Solution",
@@ -31,10 +32,11 @@ export default async function RootLayout({
           <RentModal />
           <LoginModal />
           <RegisterModal />
+          <SearchModal />
           {/* <Modal actionLabel="Submit" title="Hello World" isOpen /> */}
           <Navbar currentUser={currentUser} />
         </ClientOnly>
-        {children}
+        <div className="pb-20 pt-28">{children}</div>
       </body>
     </html>
   );
