@@ -9,6 +9,7 @@ import LoginModal from "./components/modals/LoginModal";
 import getCurrentUser from "./actions/getCurrentUser";
 import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SearchModal";
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "AirBnb",
   description: "Airlines Bokking Solution",

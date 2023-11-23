@@ -45,7 +45,6 @@
     "postcss": "^8.4.31",
     "prisma": "^5.5.2",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5",
-    "@prisma/cli": "my-app@0.1.0"
+    "typescript": "^5"
   }
 }
